@@ -1,6 +1,6 @@
 ---
 layout: 'redirect'
-permalink: /
+permalink: /durin
 redir_to: 'http://eric.cozzi.us/durin'
 sitemap: false
 ---
