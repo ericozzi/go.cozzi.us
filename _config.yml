@@ -50,3 +50,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+permalink: /:title.html
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: 'redirect'
+      sitemap: false
