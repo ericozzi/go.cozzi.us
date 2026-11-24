@@ -1,3 +1,3 @@
 ---
-redir_to: 'http://eric.cozzi.us/durin'
+redir_to: 'http://durin.cozzi.us'
 ---
