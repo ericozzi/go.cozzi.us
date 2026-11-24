@@ -8,12 +8,11 @@
     with the page redirection plugin: if that is defined
     it takes over.
   {% endcomment %}
-  <link rel="canonical" href="{{ page.redir_to }}"/>
-  <meta http-equiv="refresh" content="0;url={{ page.redir_to }}" />
+  <link rel="canonical" href="{{ page.redir_to | escape }}">
+  <meta http-equiv="refresh" content="0;url={{ page.redir_to | escape }}">
 </head>
 <body>
   <h1>Redirecting...</h1>
-  <a href="{{ page.redir_to }}">Click here if you are not redirected.<a>
-  <script>location='{{ page.redir_to }}'</script>
+  <a href="{{ page.redir_to | escape }}">Click here if you are not redirected.</a>
 </body>
 </html>
